@@ -36,7 +36,7 @@ public class NewTest {
     @Test
     public void f()
     {
-        System.out.println("heloo11111111111");
+        System.out.println("heloo111111111113333333");
         By inputBox = By.id("kw");
         By searchButton = By.id("su");
 
