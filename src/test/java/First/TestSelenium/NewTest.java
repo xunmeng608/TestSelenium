@@ -34,35 +34,17 @@ public class NewTest {
     }
 
     @Test
-    public void f()
+    public void f() throws Exception
     {
         System.out.println("he您好");
-        By inputBox = By.id("kw");
-        By searchButton = By.id("su");
-
-        //智能等待元素加载出来
-        intelligentWait(driver, 10, inputBox);
-        //智能等待元素加载出来
-        intelligentWait(driver, 10, searchButton);
-        driver.findElement(inputBox).sendKeys("中国");
-        driver.findElement(searchButton).click();
+       WebElement element= driver.findElement(By.id("kw"));
+       element.sendKeys("哈哈");
+       driver.findElement(By.id("su")).click();
+       driver.wait(5000);
 
     }
 
 
-    /**这是智能等待元素加载的方法*/
-    public void intelligentWait(WebDriver driver,int timeOut, final By by) {
-        try {
-            (new WebDriverWait(driver, timeOut)).until(new ExpectedCondition<Boolean>() {
-                public Boolean apply(WebDriver driver) {
-                    WebElement element = driver.findElement(by);
-                    return element.isDisplayed();
-                }
-            });
+ 
 
-
-        } catch (TimeoutException e) {
-        Assert.fail("超时L !! " + timeOut + " 秒之后还没找到元素 [" + by + "]", e);
-        }
-    }
 }
