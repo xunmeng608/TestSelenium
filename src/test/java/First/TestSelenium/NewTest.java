@@ -1,5 +1,8 @@
 package First.TestSelenium;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -40,8 +43,9 @@ public class NewTest {
        WebElement element= driver.findElement(By.id("kw"));
        element.sendKeys("¹þ¹þ");
        driver.findElement(By.id("su")).click();
-       driver.wait(5000);
-
+       
+       Thread.sleep(5000);
+       driver.close();
     }
 
 
