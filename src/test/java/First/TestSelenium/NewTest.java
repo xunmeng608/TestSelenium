@@ -39,7 +39,7 @@ public class NewTest {
     @Test
     public void f() throws Exception
     {
-        System.out.println("heÄúºÃ");
+        System.out.println("heÄúºÃ°¡°¡°¡°¡°¡");
        WebElement element= driver.findElement(By.id("kw"));
        element.sendKeys("¹þ¹þ");
        driver.findElement(By.id("su")).click();

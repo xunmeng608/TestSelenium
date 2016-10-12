@@ -5,9 +5,9 @@
       <class name="First.TestSelenium.NewTest">
           <methods>
                     <include name="f" />
+                    <include name="f11" />
           </methods>
       </class>
-          
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
