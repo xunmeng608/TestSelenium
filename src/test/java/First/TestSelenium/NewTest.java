@@ -41,7 +41,7 @@ public class NewTest {
     {
         System.out.println("备注9998888888888");
        WebElement element= driver.findElement(By.id("kw"));
-       element.sendKeys("����");
+       element.sendKeys("您好");
        driver.findElement(By.id("su")).click();
        
        Thread.sleep(5000);
