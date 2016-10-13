@@ -15,7 +15,7 @@ public class NewTest1 {
 
     @BeforeTest
     public void beforeTest(){
-  	  System.setProperty("webdriver.chrome.bin","C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");/*(Ä¬ÈÏ°²×°µÄä¯ÀÀÆ÷²»ÐèÒªÐ´Õâ¶Î´úÂë)*/
+  	  System.setProperty("webdriver.chrome.bin","C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");/*(Ä¬ï¿½Ï°ï¿½×°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒªÐ´ï¿½ï¿½Î´ï¿½ï¿½ï¿½)*/
   	  System.setProperty("webdriver.chrome.driver", "c:\\chromedriver.exe");
   	driver=new ChromeDriver();
   	driver.get("http://www.baidu.com/");
@@ -29,7 +29,7 @@ public class NewTest1 {
     @Test
     public void f1() throws Exception
     {
-        System.out.println("ÄúºÃ66666666666666666666666666");
+        System.out.println("å¤‡æ³¨66666666666666666666666666");
        WebElement element= driver.findElement(By.id("kw"));
        element.sendKeys("selenium");
        driver.findElement(By.id("su")).click();
