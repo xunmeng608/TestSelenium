@@ -2,12 +2,10 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="First.TestSelenium.NewTest">
-          <methods>
-                    <include name="f" />
-                    <include name="f11" />
-          </methods>
-      </class>
+      <classes>
+      <class name="First.TestSelenium.NewTest"/>
+      <class name="First.TestSelenium.NewTest1"/>
+    </classes>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
