@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9853" started-at="2016-09-30T09:52:26Z" finished-at="2016-09-30T09:52:36Z">
+  <suite name="Default suite" duration-ms="10967" started-at="2016-10-12T07:52:12Z" finished-at="2016-10-12T07:52:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9853" started-at="2016-09-30T09:52:26Z" finished-at="2016-09-30T09:52:36Z">
+    <test name="Default test" duration-ms="10967" started-at="2016-10-12T07:52:12Z" finished-at="2016-10-12T07:52:23Z">
       <class name="First.TestSelenium.NewTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:First.TestSelenium.NewTest@23223dd8]" name="beforeTest" is-config="true" duration-ms="2977" started-at="2016-09-30T17:52:26Z" finished-at="2016-09-30T17:52:29Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:First.TestSelenium.NewTest@23223dd8]" name="beforeTest" is-config="true" duration-ms="3036" started-at="2016-10-12T15:52:12Z" finished-at="2016-10-12T15:52:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:First.TestSelenium.NewTest@23223dd8]" name="f" duration-ms="5360" started-at="2016-09-30T17:52:29Z" finished-at="2016-09-30T17:52:34Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:First.TestSelenium.NewTest@23223dd8]" name="f" duration-ms="6264" started-at="2016-10-12T15:52:15Z" finished-at="2016-10-12T15:52:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:First.TestSelenium.NewTest@23223dd8]" name="afterTest" is-config="true" duration-ms="1500" started-at="2016-09-30T17:52:34Z" finished-at="2016-09-30T17:52:36Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:First.TestSelenium.NewTest@23223dd8]" name="afterTest" is-config="true" duration-ms="1650" started-at="2016-10-12T15:52:21Z" finished-at="2016-10-12T15:52:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

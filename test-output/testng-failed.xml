@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="First.TestSelenium.NewTest">
+      <class name="First.TestSelenium.NewTest1">
         <methods>
-          <include name="afterTest"/>
+          <include name="f1"/>
           <include name="beforeTest"/>
-          <include name="f"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- First.TestSelenium.NewTest -->
+      </class> <!-- First.TestSelenium.NewTest1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
