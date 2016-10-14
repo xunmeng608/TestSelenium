@@ -48,7 +48,12 @@ public class NewTest {
        driver.close();
     }
 
-
+    @Test
+    public void f11() throws Exception
+    {
+        System.out.println("方法f11（）---");
+    
+    }
  
 
 }

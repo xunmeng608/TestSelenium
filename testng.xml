@@ -6,5 +6,9 @@
       <class name="First.TestSelenium.NewTest"/>
       <class name="First.TestSelenium.NewTest1"/>
     </classes>
+    <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
