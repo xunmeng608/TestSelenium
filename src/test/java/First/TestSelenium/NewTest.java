@@ -27,33 +27,36 @@ public class NewTest {
     public void beforeTest(){
   	  System.setProperty("webdriver.chrome.bin","C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");/*(Ĭ�ϰ�װ�����������Ҫд��δ���)*/
   	  System.setProperty("webdriver.chrome.driver", "c:\\chromedriver.exe");
-  	driver=new ChromeDriver();
-  	driver.get("http://www.baidu.com/");
+  	  driver=new ChromeDriver();
+
     }
 
     @AfterTest
     public void afterTest(){
-        driver.quit();
+//        driver.quit();
     }
 
     @Test
     public void f() throws Exception
     {
-        System.out.println("备注9998888888888");
-       WebElement element= driver.findElement(By.id("kw"));
-       element.sendKeys("您好");
-       driver.findElement(By.id("su")).click();
-       
-       Thread.sleep(5000);
-       driver.close();
+//        System.out.println("备注9998888888888");
+//       WebElement element= driver.findElement(By.id("kw"));
+//       element.sendKeys("您好");
+//       driver.findElement(By.id("su")).click();
+//       
+//       Thread.sleep(5000);
+//       driver.close();
+    	 driver.get("http://erptest.jsynjt.com/");
+    	 driver.findElement(By.id("at-field-username")).sendKeys("txd010");
+         driver.findElement(By.id("at-field-password")).sendKeys("010txd!");
+         driver.findElement(By.id("at-btn")).click();
+         Thread.sleep(5000);
+         driver.findElement(By.xpath("//a[text()='所有订单']")).click();
+//         driver.findElement(By.xpath("//a[contains(text(),’所有订单’)]"));
+//         driver.findElement(By.xpath("//a[text()='所有订单']")).click();
     }
 
-    @Test
-    public void f11() throws Exception
-    {
-        System.out.println("方法f11（）---");
-    
-    }
+   
  
 
 }
