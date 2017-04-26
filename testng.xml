@@ -4,7 +4,7 @@
   <test name="Test">
     <classes>
       <class name="First.TestSelenium.NewTest"/>
-      <class name="First.TestSelenium.NewTest1"/>
+     
     </classes>
     <listeners>
       <listener class-name="org.uncommons.reportng.HTMLReporter"/>

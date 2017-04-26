@@ -30,6 +30,7 @@ public class NewTest1 {
     public void f1() throws Exception
     {
         System.out.println("备注66666666666666666666666666");
+        System.out.println("哈哈哈哈哈哈哈哈哈哈哈哈");
        WebElement element= driver.findElement(By.id("kw"));
        element.sendKeys("selenium");
        driver.findElement(By.id("su")).click();
